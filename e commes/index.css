@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.navbar-link{
+      display: flex;
+      column-gap: 20px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color:#1d232c ;
+}
+.navbar-link a:hover{
+    text-decoration:underline ;
+    color: #1d232c;
+}
+.navbar-menu-toggle{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .navbar-menu-toggle{
+        display: block;
+
+    }
+    .navbar-link{
+        display: none;
+    }
+    .header-img{
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+}
+.side-navbar{
+    background-color: #1d232c;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+    display: none;
+   
+}
+.side-navbar-link{
+    margin-bottom: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header img{
+    border-radius: 10px;
+}
+
+.header-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1d232c;
+    color: white;
+    cursor: pointer;
+
+}
+.contact{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1d232c;
+    color: white;
+    justify-content: center;
+}
+.form{
+    background-color: #1d232c;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: auto;
+
+}
+.form-box{
+    
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+    
+}
+.contact{
+    width: auto;
+    text-align: center;
+}
+.submit{
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    border-radius: 10px;
+    padding: 10px;
+}
+.service{
+    padding: 20px;
+
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival-container img{
+    border-radius: 10px;
+}
+.new-arrival-button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding: 5%;
+    margin-top: 10px;
+    color: #1d232c;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border-radius: 10px;
+    border: none;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.news button{
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    border-radius: 10px;
+    padding: 10px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: #f2f4f7;
+}
+.side-navbar-link a{ 
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+}
+.side-navbar-link a:hover{
+    text-decoration: underline;
+}
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.products-box img{
+    border-radius: 10px;
+}

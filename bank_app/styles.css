@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.balance {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.input-section {
+    display: none;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
